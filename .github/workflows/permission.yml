@@ -1,0 +1,9 @@
+name: Permission
+on: push
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    permissions: read-all
+    steps:
+      - run: echo "Hello"
+
