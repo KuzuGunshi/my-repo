@@ -8,7 +8,7 @@ jobs:   # jobsキーへ複数のジョブを定義すれば、並列に実行さ
   second:
     runs-on: ubuntu-latest
     steps:
-      - run: slee 10 && echo "Second job"
+      - run: sleep 10 && echo "Second job"
   third:
     runs-on: ubuntu-latest
     steps:
